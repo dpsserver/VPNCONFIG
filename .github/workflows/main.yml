@@ -1,4 +1,4 @@
-name: Ice Fishing Monitor (18 min)
+name: ProtonVPN WireGuard ZIP (18 min)
 
 on:
   schedule:
@@ -25,10 +25,10 @@ jobs:
           pip install playwright requests
           playwright install chromium --with-deps
 
-      - name: 🎣 Run Ice Fishing Monitor
+      - name: 🚀 Run VPN ZIP Job
         env:
-          EMAIL: ${{ secrets.EMAIL }}
-          PASSWORD: ${{ secrets.PASSWORD }}
+          PROTON_EMAIL: ${{ secrets.PROTON_EMAIL }}
+          PROTON_PASSWORD: ${{ secrets.PROTON_PASSWORD }}
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           LOG_CHAT_ID: ${{ secrets.LOG_CHAT_ID }}
           ZIP_CHAT_ID: ${{ secrets.ZIP_CHAT_ID }}
