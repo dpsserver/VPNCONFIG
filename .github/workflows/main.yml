@@ -31,5 +31,6 @@ jobs:
           PASSWORD: ${{ secrets.PASSWORD }}
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           LOG_CHAT_ID: ${{ secrets.LOG_CHAT_ID }}
+          ZIP_CHAT_ID: ${{ secrets.ZIP_CHAT_ID }}
         run: |
           python app.py
