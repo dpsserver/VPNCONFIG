@@ -1,8 +1,8 @@
-name: ProtonVPN WireGuard ZIP (18 min)
+name: ProtonVPN WireGuard ZIP (Daily 00:02 IST)
 
 on:
   schedule:
-    - cron: "*/18 * * * *"
+    - cron: "32 18 * * *"   # 00:02 IST daily
   workflow_dispatch:
 
 jobs:
