@@ -1,8 +1,8 @@
 from playwright.sync_api import sync_playwright, TimeoutError
-import os, time, requests, zipfile
+import os, time, requests, zipfile, json
 from pathlib import Path
 
-# ========= ENV =========
+# ================= ENV =================
 EMAIL = os.getenv("PROTON_EMAIL")
 PASSWORD = os.getenv("PROTON_PASSWORD")
 BOT_TOKEN = os.getenv("BOT_TOKEN")
@@ -18,6 +18,7 @@ WAIT_BEFORE_DOWNLOAD = 3
 BASE_DIR = Path.cwd()
 VPN_DIR = BASE_DIR / "vpnconfig"
 ZIP_FILE = BASE_DIR / "wireguard_configs.zip"
+STATE_FILE = BASE_DIR / "last_file_id.json"
 
 VPN_DIR.mkdir(exist_ok=True)
 
@@ -27,24 +28,43 @@ SERVERS = [
     "CA-FREE#13"
 ]
 
-# ========= TELEGRAM =========
+TG_API = f"https://api.telegram.org/bot{BOT_TOKEN}"
+
+# ================= TELEGRAM =================
 def tg_send(chat_id, text):
     requests.post(
-        f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage",
+        f"{TG_API}/sendMessage",
         data={"chat_id": chat_id, "text": text, "parse_mode": "HTML"},
         timeout=15
     )
 
-def tg_send_file(chat_id, path, caption):
+def tg_send_file_and_get_id(chat_id, path, caption):
     with open(path, "rb") as f:
-        requests.post(
-            f"https://api.telegram.org/bot{BOT_TOKEN}/sendDocument",
+        r = requests.post(
+            f"{TG_API}/sendDocument",
             data={"chat_id": chat_id, "caption": caption, "parse_mode": "HTML"},
             files={"document": f},
-            timeout=30
+            timeout=60
         )
 
-# ========= MAIN =========
+    r.raise_for_status()
+    file_id = r.json()["result"]["document"]["file_id"]
+    return file_id
+
+def tg_send_by_file_id(chat_id, file_id, caption):
+    requests.post(
+        f"{TG_API}/sendDocument",
+        data={
+            "chat_id": chat_id,
+,
+            "document": file_id,
+            "caption": caption,
+            "parse_mode": "HTML"
+        },
+        timeout=15
+    )
+
+# ================= MAIN =================
 def run(playwright):
     tg_send(LOG_CHAT_ID, "🚀 <b>ProtonVPN WireGuard ZIP Job Started</b>")
 
@@ -102,19 +122,34 @@ def run(playwright):
         tg_send(LOG_CHAT_ID, "❌ No configs downloaded")
         return
 
-    # ========= ZIP =========
+    # ================= ZIP =================
     with zipfile.ZipFile(ZIP_FILE, "w", zipfile.ZIP_DEFLATED) as z:
         for f in downloaded:
             z.write(f, f.name)
 
-    tg_send_file(
+    tg_send(LOG_CHAT_ID, "📦 ZIP created")
+
+    # ================= UPLOAD + FILE_ID =================
+    file_id = tg_send_file_and_get_id(
         ZIP_CHAT_ID,
         ZIP_FILE,
         "📦 <b>WireGuard Configs ZIP</b>\n3 servers included"
     )
 
-    tg_send(LOG_CHAT_ID, "✅ ZIP sent successfully")
+    with open(STATE_FILE, "w") as f:
+        json.dump({"file_id": file_id}, f)
 
-# ========= RUN =========
+    tg_send(LOG_CHAT_ID, f"🧾 <b>File ID saved</b>\n<code>{file_id}</code>")
+
+    # ================= REPOST USING FILE_ID =================
+    tg_send_by_file_id(
+        ZIP_CHAT_ID,
+        file_id,
+        "♻️ <b>Re-posted WireGuard ZIP</b>\n(no re-upload, file_id reuse)"
+    )
+
+    tg_send(LOG_CHAT_ID, "✅ ZIP reposted successfully")
+
+# ================= RUN =================
 with sync_playwright() as playwright:
     run(playwright)
