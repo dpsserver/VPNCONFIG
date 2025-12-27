@@ -3,6 +3,7 @@ import os
 import requests
 import zipfile
 import json
+import hashlib
 from pathlib import Path
 
 # ================= ENV =================
@@ -21,7 +22,7 @@ WAIT_BEFORE_DOWNLOAD = 3
 BASE_DIR = Path.cwd()
 VPN_DIR = BASE_DIR / "vpnconfig"
 ZIP_FILE = BASE_DIR / "wireguard_configs.zip"
-STATE_FILE = BASE_DIR / "last_file_id.json"
+STATE_FILE = BASE_DIR / "state.json"
 
 VPN_DIR.mkdir(exist_ok=True)
 
@@ -32,6 +33,14 @@ SERVERS = [
 ]
 
 TG_API = f"https://api.telegram.org/bot{BOT_TOKEN}"
+
+# ================= UTIL =================
+def sha256(path):
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        for chunk in iter(lambda: f.read(8192), b""):
+            h.update(chunk)
+    return h.hexdigest()
 
 # ================= TELEGRAM =================
 def tg_send(chat_id, text):
@@ -63,6 +72,16 @@ def tg_send_by_file_id(chat_id, file_id, caption):
         },
         timeout=15
     )
+
+def file_id_to_direct_url(file_id):
+    r = requests.get(
+        f"{TG_API}/getFile",
+        params={"file_id": file_id},
+        timeout=20
+    )
+    r.raise_for_status()
+    file_path = r.json()["result"]["file_path"]
+    return f"https://api.telegram.org/file/bot{BOT_TOKEN}/{file_path}"
 
 # ================= MAIN =================
 def run(playwright):
@@ -127,28 +146,50 @@ def run(playwright):
         for f in downloaded:
             z.write(f, f.name)
 
-    tg_send(LOG_CHAT_ID, "📦 ZIP created")
+    zip_hash = sha256(ZIP_FILE)
 
-    # ================= UPLOAD + FILE_ID =================
+    # ================= LOAD STATE =================
+    state = {}
+    if STATE_FILE.exists():
+        state = json.loads(STATE_FILE.read_text())
+
+    if state.get("zip_hash") == zip_hash:
+        tg_send(LOG_CHAT_ID, "♻️ ZIP unchanged, skipping upload")
+
+        file_id = state["file_id"]
+        direct_url = file_id_to_direct_url(file_id)
+
+        tg_send(
+            LOG_CHAT_ID,
+            f"🔗 <b>Direct Download URL</b>\n<a href='{direct_url}'>Click here</a>"
+        )
+        return
+
+    # ================= UPLOAD =================
     file_id = tg_send_file_and_get_id(
         ZIP_CHAT_ID,
         ZIP_FILE,
         "📦 <b>WireGuard Configs ZIP</b>\n3 servers included"
     )
 
-    with open(STATE_FILE, "w") as f:
-        json.dump({"file_id": file_id}, f)
+    direct_url = file_id_to_direct_url(file_id)
 
-    tg_send(LOG_CHAT_ID, f"🧾 <b>File ID saved</b>\n<code>{file_id}</code>")
+    STATE_FILE.write_text(json.dumps({
+        "zip_hash": zip_hash,
+        "file_id": file_id
+    }))
 
-    # ================= REPOST USING FILE_ID =================
+    tg_send(LOG_CHAT_ID, f"🧾 <b>New ZIP uploaded</b>")
+    tg_send(
+        LOG_CHAT_ID,
+        f"🔗 <b>Direct Download URL</b>\n<a href='{direct_url}'>Click here</a>"
+    )
+
     tg_send_by_file_id(
         ZIP_CHAT_ID,
         file_id,
-        "♻️ <b>Re-posted WireGuard ZIP</b>\n(no re-upload, file_id reuse)"
+        "♻️ <b>Re-posted WireGuard ZIP</b>\n(file_id reuse)"
     )
-
-    tg_send(LOG_CHAT_ID, "✅ ZIP reposted successfully")
 
 # ================= RUN =================
 with sync_playwright() as playwright:
