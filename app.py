@@ -1,5 +1,8 @@
 from playwright.sync_api import sync_playwright, TimeoutError
-import os, time, requests, zipfile, json
+import os
+import requests
+import zipfile
+import json
 from pathlib import Path
 
 # ================= ENV =================
@@ -46,17 +49,14 @@ def tg_send_file_and_get_id(chat_id, path, caption):
             files={"document": f},
             timeout=60
         )
-
     r.raise_for_status()
-    file_id = r.json()["result"]["document"]["file_id"]
-    return file_id
+    return r.json()["result"]["document"]["file_id"]
 
 def tg_send_by_file_id(chat_id, file_id, caption):
     requests.post(
         f"{TG_API}/sendDocument",
         data={
             "chat_id": chat_id,
-,
             "document": file_id,
             "caption": caption,
             "parse_mode": "HTML"
