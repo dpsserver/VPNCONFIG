@@ -27,8 +27,10 @@ jobs:
 
       - name: 🚀 Run VPN ZIP Job
         env:
-          PROTON_EMAIL: ${{ secrets.PROTON_EMAIL }}
-          PROTON_PASSWORD: ${{ secrets.PROTON_PASSWORD }}
+  PROTON_EMAIL: ${{ secrets.PROTON_EMAIL }}
+  PROTON_PASSWORD: ${{ secrets.PROTON_PASSWORD }}
+  GDRIVE_SA_JSON: ${{ secrets.GDRIVE_SA_JSON }}
+
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           LOG_CHAT_ID: ${{ secrets.LOG_CHAT_ID }}
           ZIP_CHAT_ID: ${{ secrets.ZIP_CHAT_ID }}
