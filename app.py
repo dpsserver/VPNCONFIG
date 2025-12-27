@@ -1,24 +1,38 @@
 from playwright.sync_api import sync_playwright, TimeoutError
 import os, zipfile, json, hashlib
 from pathlib import Path
-from googleapiclient.discovery import build
-from googleapiclient.http import MediaFileUpload
-from google.oauth2 import service_account
+import boto3
+import requests
+
+# ================= ENV =================
+PROTON_EMAIL = os.getenv("PROTON_EMAIL")
+PROTON_PASSWORD = os.getenv("PROTON_PASSWORD")
+
+AWS_ACCESS_KEY_ID = os.getenv("AWS_ACCESS_KEY_ID")
+AWS_SECRET_ACCESS_KEY = os.getenv("AWS_SECRET_ACCESS_KEY")
+AWS_REGION = os.getenv("AWS_REGION", "ap-south-1")
+
+# Telegram (FROM SECRETS)
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+LOG_CHANNEL_ID = os.getenv("LOG_CHANNEL_ID")
+
+if not all([
+    PROTON_EMAIL,
+    PROTON_PASSWORD,
+    AWS_ACCESS_KEY_ID,
+    AWS_SECRET_ACCESS_KEY,
+    BOT_TOKEN,
+    LOG_CHANNEL_ID
+]):
+    raise RuntimeError("❌ Missing required environment variables")
 
 # ================= CONFIG =================
-EMAIL = os.getenv("PROTON_EMAIL")
-PASSWORD = os.getenv("PROTON_PASSWORD")
-
-if not EMAIL or not PASSWORD:
-    raise RuntimeError("❌ Missing PROTON_EMAIL / PROTON_PASSWORD")
-
-# Google Drive Service Account JSON (SECRET)
-SA_JSON = os.getenv("GDRIVE_SA_JSON")
-if not SA_JSON:
-    raise RuntimeError("❌ Missing GDRIVE_SA_JSON secret")
-
 HEADLESS = True
 WAIT_BEFORE_DOWNLOAD = 3
+
+BUCKET_NAME = "protonvpn-wireguard-auto"
+S3_PREFIX = "wireguard/"
+S3_KEY = f"{S3_PREFIX}wireguard_configs.zip"
 
 SERVERS = [
     "CA-FREE#7",
@@ -26,64 +40,82 @@ SERVERS = [
     "CA-FREE#13"
 ]
 
-DRIVE_FOLDER_NAME = "ProtonVPN-WireGuard"
-ZIP_NAME = "wireguard_configs.zip"
-
 BASE_DIR = Path.cwd()
 VPN_DIR = BASE_DIR / "vpnconfig"
-ZIP_FILE = BASE_DIR / ZIP_NAME
+ZIP_FILE = BASE_DIR / "wireguard_configs.zip"
 STATE_FILE = BASE_DIR / "state.json"
 
 VPN_DIR.mkdir(exist_ok=True)
 
+TG_API = f"https://api.telegram.org/bot{BOT_TOKEN}"
+
 # ================= UTIL =================
-def sha256(path):
+def sha256(path: Path) -> str:
     h = hashlib.sha256()
     with open(path, "rb") as f:
         for chunk in iter(lambda: f.read(8192), b""):
             h.update(chunk)
     return h.hexdigest()
 
-# ================= GOOGLE DRIVE (SERVICE ACCOUNT) =================
-def get_drive_service():
-    creds_dict = json.loads(SA_JSON)
-    creds = service_account.Credentials.from_service_account_info(
-        creds_dict,
-        scopes=["https://www.googleapis.com/auth/drive"]
+def tg_send(text):
+    requests.post(
+        f"{TG_API}/sendMessage",
+        data={
+            "chat_id": LOG_CHANNEL_ID,
+            "text": text,
+            "parse_mode": "HTML",
+            "disable_web_page_preview": True
+        },
+        timeout=20
     )
-    return build("drive", "v3", credentials=creds)
 
-def get_or_create_folder(service, name):
-    q = (
-        f"name='{name}' and "
-        "mimeType='application/vnd.google-apps.folder' and trashed=false"
+# ================= S3 =================
+def s3_client():
+    return boto3.client(
+        "s3",
+        region_name=AWS_REGION,
+        aws_access_key_id=AWS_ACCESS_KEY_ID,
+        aws_secret_access_key=AWS_SECRET_ACCESS_KEY
     )
-    res = service.files().list(q=q, fields="files(id)").execute()
-    if res["files"]:
-        return res["files"][0]["id"]
 
-    meta = {"name": name, "mimeType": "application/vnd.google-apps.folder"}
-    folder = service.files().create(body=meta, fields="id").execute()
-    return folder["id"]
+def delete_old_zips():
+    s3 = s3_client()
+    resp = s3.list_objects_v2(
+        Bucket=BUCKET_NAME,
+        Prefix=S3_PREFIX
+    )
 
-def delete_old_zip(service, folder_id):
-    q = f"name='{ZIP_NAME}' and '{folder_id}' in parents and trashed=false"
-    res = service.files().list(q=q, fields="files(id)").execute()
-    for f in res["files"]:
-        service.files().delete(fileId=f["id"]).execute()
+    if "Contents" not in resp:
+        return
 
-def upload_zip(service, folder_id, zip_path):
-    meta = {"name": ZIP_NAME, "parents": [folder_id]}
-    media = MediaFileUpload(zip_path, mimetype="application/zip")
-    f = service.files().create(
-        body=meta,
-        media_body=media,
-        fields="id"
-    ).execute()
-    return f["id"]
+    for obj in resp["Contents"]:
+        key = obj["Key"]
+        if key.endswith(".zip"):
+            s3.delete_object(Bucket=BUCKET_NAME, Key=key)
+
+def upload_to_s3(path: Path):
+    s3 = s3_client()
+    s3.upload_file(
+        Filename=str(path),
+        Bucket=BUCKET_NAME,
+        Key=S3_KEY
+    )
+
+def presigned_url(expire_seconds=86400):
+    s3 = s3_client()
+    return s3.generate_presigned_url(
+        "get_object",
+        Params={
+            "Bucket": BUCKET_NAME,
+            "Key": S3_KEY
+        },
+        ExpiresIn=expire_seconds
+    )
 
 # ================= MAIN =================
 def run(playwright):
+    tg_send("🚀 <b>ProtonVPN WireGuard S3 Job Started</b>")
+
     browser = playwright.chromium.launch(headless=HEADLESS)
     context = browser.new_context(accept_downloads=True)
     page = context.new_page()
@@ -93,16 +125,16 @@ def run(playwright):
     try:
         # LOGIN
         page.goto("https://account.protonvpn.com/login", timeout=60000)
-        page.get_by_test_id("input-input-element").fill(EMAIL)
+        page.get_by_test_id("input-input-element").fill(PROTON_EMAIL)
         page.get_by_role("button", name="Continue").click()
 
         page.wait_for_selector("input[type='password']", timeout=20000)
-        page.get_by_test_id("input-input-element").fill(PASSWORD)
+        page.get_by_test_id("input-input-element").fill(PROTON_PASSWORD)
         page.get_by_role("button", name="Sign in").click()
 
         page.wait_for_url("**/dashboard**", timeout=30000)
 
-        # DOWNLOADS
+        # DOWNLOAD WIREGUARD
         page.get_by_role("link", name="Downloads").click()
         page.wait_for_selector("text=WireGuard", timeout=30000)
         page.click("text=WireGuard")
@@ -126,7 +158,10 @@ def run(playwright):
                 download.save_as(fname)
                 downloaded.append(fname)
 
+                tg_send(f"✅ <b>{server}</b> downloaded")
+
             except TimeoutError:
+                tg_send(f"⚠️ <b>{server}</b> failed")
                 continue
 
     finally:
@@ -134,7 +169,7 @@ def run(playwright):
         browser.close()
 
     if not downloaded:
-        print("❌ No configs downloaded")
+        tg_send("❌ <b>No configs downloaded</b>")
         return
 
     # ZIP
@@ -150,21 +185,20 @@ def run(playwright):
         state = json.loads(STATE_FILE.read_text())
 
     if state.get("zip_hash") == zip_hash:
-        print("♻️ ZIP unchanged – skipping upload")
+        tg_send("♻️ <b>ZIP unchanged – skipping upload</b>")
         return
 
-    # DRIVE UPLOAD
-    service = get_drive_service()
-    folder_id = get_or_create_folder(service, DRIVE_FOLDER_NAME)
-    delete_old_zip(service, folder_id)
-    file_id = upload_zip(service, folder_id, ZIP_FILE)
+    # S3 UPLOAD
+    delete_old_zips()
+    upload_to_s3(ZIP_FILE)
+    url = presigned_url()
 
-    STATE_FILE.write_text(json.dumps({
-        "zip_hash": zip_hash,
-        "file_id": file_id
-    }))
+    STATE_FILE.write_text(json.dumps({"zip_hash": zip_hash}))
 
-    print("✅ Uploaded new ZIP to Google Drive:", file_id)
+    tg_send(
+        "📦 <b>New WireGuard ZIP Uploaded</b>\n\n"
+        f"🔗 <a href='{url}'>Download (valid 24h)</a>"
+    )
 
 # ================= RUN =================
 with sync_playwright() as playwright:
