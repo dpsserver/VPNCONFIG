@@ -1,9 +1,9 @@
-name: SOCKS5 India Proxy Checker (30 min)
+name: SOCKS5 India Proxy Checker (Store to Repo)
 
 on:
   schedule:
     - cron: "*/30 * * * *"   # ⏰ every 30 minutes
-  workflow_dispatch:        # 👆 manual run button
+  workflow_dispatch:
 
 jobs:
   run-proxy-check:
@@ -13,6 +13,9 @@ jobs:
     steps:
       - name: 📥 Checkout repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
 
       - name: 🐍 Setup Python
         uses: actions/setup-python@v5
@@ -28,13 +31,13 @@ jobs:
         run: |
           python proxy_checker.py
 
-      - name: 📤 Upload results as artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: socks5-results
-          path: |
-            socks5_all.txt
-            socks5_alive.txt
-            socks5_dead.txt
-            socks5_alive_country.txt
-            socks5_india_only.txt
+      - name: 🧾 Commit TXT results to repo
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add *.txt
+
+          git commit -m "♻️ Update SOCKS5 proxy lists ($(date -u))" || echo "No changes to commit"
+
+          git push
