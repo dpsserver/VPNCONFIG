@@ -1,423 +1,586 @@
-172.86.117.8:1080 | United States | RouterHosting LLC
-172.86.116.240:1080 | United States | RouterHosting LLC
-199.66.183.226:4145 | United States | NET2ATLANTA.COM LLC
-192.111.139.165:4145 | United States | Performive LLC
-98.178.72.21:10919 | United States | Cox Communications Inc.
-184.178.172.26:4145 | United States | Cox Communications Inc.
-184.181.217.213:4145 | United States | Cox Communications Inc.
-174.75.211.193:4145 | United States | Cox Communications Inc.
-209.50.255.91:1080 | United States | Leaseweb USA, Inc.
-184.178.172.5:15303 | United States | Cox Communications Inc.
-72.223.188.67:4145 | United States | Cox Communications Inc.
-184.178.172.28:15294 | United States | Cox Communications Inc.
-184.178.172.14:4145 | United States | Cox Communications Inc.
-168.222.43.35:8443 | Germany | OVH SAS
-193.233.223.47:1080 | Russia | Aeza Group LLC
-142.54.229.249:4145 | United States | Performive LLC
-91.107.177.167:9080 | Germany | Stiftung Erneuerbare Freiheit
-185.195.71.218:18080 | Switzerland | Datasource AG
-72.195.114.169:4145 | United States | Cox Communications Inc.
-216.68.128.121:4145 | United States | Cincinnati Bell Telephone Company LLC
-91.107.179.68:10809 | Germany | Cloudflare, Inc.
-199.102.104.70:4145 | United States | Performive LLC
-43.251.225.160:1080 | Hong Kong | cognetcloud INC
-144.91.121.61:1088 | France | Contabo GmbH
-65.21.252.66:10814 | Bulgaria | Datacamp Limited
-45.74.31.47:6426 | United States | Microsoft Corporation
-47.254.36.25:11080 | United States | Alibaba Cloud LLC
-107.167.18.122:443 | United States | Sharktech
-192.252.216.81:4145 | United States | Performive LLC
-70.166.65.160:4145 | United States | Cox Communications Inc.
-72.207.113.97:4145 | United States | Cox Communications Inc.
-98.191.0.37:4145 | United States | Cox Communications Inc.
-174.64.199.79:4145 | United States | Cox Communications Inc.
-109.172.8.142:666 | Czechia | SmartApe OU
-5.255.99.75:1080 | The Netherlands | The Infrastructure Group B.V.
-49.13.22.249:10805 | Spain | Datacamp Limited
-156.225.31.18:7890 | Hong Kong | Vapeline Technology
-5.17.2.117:1080 | Russia | Z-Telecom
-109.230.129.20:10808 | Germany | IONOS SE
-45.74.31.40:15328 | United States | Oracle Corporation
-45.74.31.41:4803 | France | Contabo GmbH
-45.74.31.41:11884 | United States | Oracle Corporation
-49.13.22.249:10803 | United Kingdom | VeloxServ Communications Ltd
-103.75.118.84:1080 | Japan | BrainStorm Network
-110.235.247.206:1080 | Cambodia | COGETEL Co
-45.74.31.42:4849 | Germany | DigitalOcean, LLC
-103.163.244.106:1080 | India | Infolink System
-45.74.31.42:11488 | Indonesia | Biznet Networks
-110.235.240.223:1080 | Cambodia | COGETEL Co
-72.195.34.35:27360 | United States | Cox Communications Inc.
-102.129.229.131:1081 | Thailand | DEXSERVER by CSNE CO., LTD.
-47.104.198.111:9080 | United Kingdom | XIFTCS Company
-8.130.36.163:9098 | United Kingdom | XIFTCS Company
-47.121.129.129:3128 | United Kingdom | XIFTCS Company
-120.26.104.146:8008 | United Kingdom | XIFTCS Company
-23.94.76.170:1080 | United States | HostPapa
-103.88.234.239:40002 | Mexico | Cloudflare, Inc.
-192.252.209.158:4145 | United States | Performive LLC
-192.252.210.233:4145 | United Kingdom | Performive LLC
-68.71.254.6:4145 | United States | Total Server Solutions L.L.C.
-174.77.111.198:49547 | United States | Cox Communications Inc.
-67.201.33.10:25283 | United States | PacketExchange
-198.8.84.3:4145 | United States | Performive LLC
-165.140.167.167:9050 | Germany | F3 Netze e.V.
-98.181.137.80:4145 | United States | Cox Communications Inc.
-47.82.76.35:1011 | Hong Kong | Alibaba (US) Technology Co., Ltd.
-103.210.161.8:1080 | China | China Unicom Guangdong IP network
-64.227.186.105:1080 | India | DigitalOcean, LLC
-45.74.31.41:12384 | United States | Oracle Corporation
-160.22.200.60:69 | Indonesia | PT Karangmukti Global Netmedia
-104.194.132.112:9054 | Sweden | QuxLabs AB
-109.207.187.15:1080 | Russia | Pskovline Ltd.
-192.252.220.89:4145 | United States | Performive LLC
-45.74.31.41:12670 | United States | Network Solutions, LLC
-45.74.31.41:15288 | Singapore | Contabo Asia Private Limited
-47.238.130.212:28 | United Kingdom | XIFTCS Company
-45.74.31.41:14605 | United States | Oracle Corporation
-156.225.20.83:1080 | Hong Kong | Vapeline Technology
-47.238.136.137:1011 | Hong Kong | Alibaba Cloud LLC
-5.75.133.113:10802 | Germany | F.N.S. HOLDINGS LIMITED
-45.74.31.40:14879 | United States | DigitalOcean, LLC
-142.54.236.97:4145 | United States | Performive LLC
-72.205.0.93:4145 | United States | Cox Communications Inc.
-193.25.215.182:22222 | United States | ReadyDedis, LLC
-184.181.217.201:4145 | United States | Cox Communications Inc.
-203.189.135.73:1080 | Cambodia | COGETEL Co
-47.251.87.199:312 | United Kingdom | XIFTCS Company
-144.217.107.25:1080 | Canada | OVH SAS
-89.185.24.44:10808 | Hong Kong | Hytron Network Services Limited
-112.229.31.130:2080 | United States | tzulo, inc.
-138.3.218.141:54261 | Japan | Oracle Corporation
-115.74.200.4:1080 | Vietnam | VIETELxdsl
-130.17.13.182:8080 | Germany | Fornex Hosting S.L.
-174.77.111.197:4145 | United States | Cox Communications Inc.
-45.74.31.42:28543 | United States | Microsoft
-43.155.143.227:1080 | South Korea | Shenzhen Tencent Computer Systems Company Limited
-203.189.155.68:1080 | Cambodia | COGETEL Co
-45.74.31.42:6540 | United States | Namecheap, Inc.
-74.119.144.60:4145 | United States | Total Server Solutions L.L.C.
-90.154.61.187:1080 | Russia | PJSC Rostelecom
-45.74.31.41:13397 | Indonesia | Biznet Networks
-43.134.39.221:10000 | Singapore | Shenzhen Tencent Computer Systems Company Limited
-107.150.41.226:18080 | United States | Nocix, LLC
-98.170.57.249:4145 | United States | Cox Communications Inc.
-216.105.130.131:4145 | United States | NET2ATLANTA.COM LLC
-188.75.3.66:1080 | Russia | OOO LANCRONIX
-45.74.31.42:5579 | Canada | GloboTech Communications
-72.194.42.131:4145 | United States | Cox Communications Inc
-208.102.51.6:58208 | United States | Fuse Internet Access
-95.85.72.169:14488 | Ukraine | G-Core Labs S.A
-72.195.101.99:4145 | United States | Cox Communications Inc.
-43.251.225.254:1080 | Hong Kong | cognetcloud INC
-67.201.59.70:4145 | United States | PacketExchange
-72.195.114.184:4145 | United States | Cox Communications Inc.
-95.111.228.190:1080 | France | Contabo GmbH
-114.215.127.92:100 | United Kingdom | XIFTCS Company
-24.249.199.4:4145 | United States | Cox Communications Inc.
-45.74.31.47:7034 | United States | IONOS SE
-94.232.62.170:1080 | Russia | Infanet Ltd.
-116.101.76.225:1080 | Vietnam | Viettel Corporation
-103.58.251.74:1080 | India | Airson Solutions
-184.178.172.25:15291 | United States | Cox Communications Inc.
-192.111.129.145:16894 | United States | Performive LLC
-72.37.217.3:4145 | United States | PacketExchange
-192.252.208.70:14282 | United States | Performive LLC
-68.71.242.118:4145 | United States | Performive LLC
-172.86.116.240:1088 | United States | RouterHosting LLC
-68.71.252.38:4145 | United States | Total Server Solutions L.L.C.
-140.82.16.82:1080 | United States | The Constant Company
-184.178.172.3:4145 | United States | Cox Communications Inc.
-104.37.135.145:4145 | United States | Performive LLC
-45.74.31.42:6263 | United States | GoDaddy.com, LLC
-172.86.117.128:1081 | United States | RouterHosting LLC
-139.224.186.221:100 | United Kingdom | XIFTCS Company
-175.27.252.26:1080 | Japan | xTom Limited
-104.200.135.46:4145 | United States | Performive LLC
-45.74.31.42:7707 | Vietnam | SUNCLOUD
-137.184.210.31:1080 | United States | DigitalOcean, LLC
-45.74.31.42:6183 | Vietnam | Phuong NGA MY
-98.175.31.195:4145 | United States | Cox Communications Inc.
-45.74.31.42:5440 | Canada | GloboTech Communications
-184.185.2.12:4145 | United States | Cox Communications Inc.
-68.71.240.210:4145 | United States | Total Server Solutions L.L.C.
-66.42.224.229:41679 | United States | Cincinnati Bell Telephone Company LLC
-91.133.5.158:1080 | Russia | Fortex Cjsc
-8.212.151.166:4100 | United Kingdom | XIFTCS Company
-45.74.31.42:4364 | United States | Namecheap, Inc.
-157.90.113.23:9052 | United Kingdom | Iomart Cloud Services Limited
-72.223.188.92:4145 | United States | Cox Communications Inc.
-72.214.108.67:4145 | United States | Cox Communications Inc
-198.8.94.174:39078 | United States | Performive LLC
-142.54.237.34:4145 | United States | Performive LLC
-23.137.228.149:1080 | United States | FiberPower LLC
-60.216.181.143:10808 | China | CNC Group CHINA169 Shandong Province Network
-45.74.31.41:9863 | Burundi | Burundi Backbone System
-5.75.133.113:10813 | Hong Kong | Powerhouse Management, Inc.
-70.166.167.55:57745 | United States | Cox Communications Inc.
-142.54.239.1:4145 | United States | Performive LLC
-5.75.133.113:10807 | United States | Latitude.sh
-67.201.58.190:4145 | United States | PacketExchange
-95.111.228.190:1081 | France | Contabo GmbH
-8.138.82.6:9098 | United Kingdom | XIFTCS Company
-57.128.249.250:9052 | The Netherlands | Matteo Martelloni trading as DELUXHOST
-199.116.112.6:4145 | United States | Total Server Solutions L.L.C.
-192.111.130.2:4145 | United States | Performive LLC
-47.85.13.198:1080 | United States | Alibaba.com LLC
-184.182.240.12:4145 | United States | Cox Communications Inc.
-154.201.71.12:2080 | Hong Kong | cognetcloud INC
-172.86.117.128:1080 | United States | RouterHosting LLC
-45.74.31.42:4496 | France | OVH SAS
-67.201.39.14:4145 | United States | PacketExchange
-39.104.27.89:3128 | United Kingdom | XIFTCS Company
-72.195.34.41:4145 | United States | Cox Communications Inc.
-192.252.209.155:14455 | United States | Performive LLC
-185.87.255.47:1080 | United Kingdom | Fast Panda Limited
-43.167.166.56:1080 | Japan | Shenzhen Tencent Computer Systems Company Limited
-192.111.137.34:18765 | United States | Performive LLC
-43.130.38.45:51029 | United States | Shenzhen Tencent Computer Systems Company Limited
-8.221.138.111:6379 | United Kingdom | XIFTCS Company
-47.250.51.110:1234 | United Kingdom | XIFTCS Company
-68.71.243.14:4145 | United States | Performive LLC
-199.116.114.11:4145 | United States | Performive LLC
-45.138.157.212:1080 | Russia | Cloudflare, Inc.
-188.235.21.247:2080 | Russia | CJSC "ER-Telecom Holding" Voronezh branch
-142.54.228.193:4145 | United States | Performive LLC
-5.75.133.113:10814 | Hong Kong | M247 Europe SRL
-5.255.117.250:1080 | The Netherlands | The Infrastructure Group B.V.
-49.0.0.175:1080 | Indonesia | PT Usaha Adi Sanggoro
-129.151.240.183:1080 | France | Oracle Corporation
-98.181.137.83:4145 | United States | Cox Communications Inc.
-83.147.217.103:1080 | United States | CloudExa-Hosting LTD
-45.61.188.134:44499 | United States | FranTech Solutions
-213.111.146.36:18080 | The Netherlands | SOLLUTIUM EU Sp z.o.o.
-45.74.31.41:12363 | France | OVH SAS
-185.175.58.225:18889 | Austria | HostHatch
-84.253.122.42:1080 | Russia | Moscow Center of New Telecommunication Technologies
-185.87.255.54:1080 | United Kingdom | Fast Panda Limited
-45.74.31.42:6837 | United States | Namecheap, Inc.
-101.132.252.152:1337 | United Kingdom | XIFTCS Company
-45.79.203.254:48388 | United States | Akamai Technologies, Inc.
-45.74.31.41:12758 | United States | Network Solutions, LLC
-82.202.163.222:1080 | Russia | SERVER
-137.59.195.198:1080 | Pakistan | Sky Telecom
-192.111.138.29:4145 | United States | Performive LLC
-8.220.204.215:8000 | United Kingdom | XIFTCS Company
-194.238.79.156:1080 | Germany | dataforest GmbH
-192.111.135.17:18302 | United States | Performive LLC
-174.64.199.82:4145 | United States | Cox Communications Inc.
-39.102.208.236:10002 | United Kingdom | XIFTCS Company
-172.86.117.125:1081 | United States | RouterHosting LLC
-31.76.111.88:1080 | Germany | EdgeSec Technologies Limited
-72.195.34.60:27391 | United States | Cox Communications Inc.
-72.207.109.5:4145 | United States | Cox Communications Inc.
-45.74.31.42:4170 | South Africa | xneelo-JHB
-107.152.98.5:4145 | United States | Performive LLC
-192.252.211.197:14921 | United States | Performive LLC
-120.26.52.35:3128 | United Kingdom | XIFTCS Company
-160.187.1.225:9050 | United States | Emerald Onion
-103.189.218.76:6969 | Bangladesh | Comfort Solutions
-116.236.146.234:4145 | China | China Telecom (Group)
-101.132.248.7:20 | United Kingdom | XIFTCS Company
-45.74.31.42:5592 | United States | The Constant Company
-45.74.31.42:4477 | Canada | GloboTech Communications
-199.66.182.243:4145 | United States | NET2ATLANTA.COM LLC
-101.36.104.239:10808 | Japan | UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED
-192.111.137.35:4145 | United States | Performive LLC
-45.61.129.165:9050 | Romania | FlokiNET Ltd
-68.1.210.189:4145 | United States | Cox Communications Inc.
-45.74.31.42:4883 | Canada | GloboTech Communications
-161.97.104.161:9050 | The Netherlands | Church of Cyberology
-199.66.183.251:4145 | United States | NET2ATLANTA.COM LLC
-23.95.164.244:1081 | United States | HostPapa
-216.105.143.146:4145 | United States | NET2ATLANTA.COM LLC
-160.187.0.89:1080 | Vietnam | Online Data Company Limited
-144.91.82.219:9050 | The Netherlands | Church of Cyberology
-45.74.31.47:4281 | Canada | GloboTech Communications
-106.15.58.163:8082 | United Kingdom | XIFTCS Company
-192.111.129.150:4145 | United States | Performive LLC
-45.74.31.42:13542 | Indonesia | Biznet Networks
-184.181.178.33:4145 | United States | Cox Communications Inc.
-199.102.106.94:4145 | United States | Performive LLC
-74.119.147.209:4145 | United States | Total Server Solutions L.L.C.
-31.211.142.115:8192 | Bulgaria | 5KOM
-199.66.182.232:4145 | United States | NET2ATLANTA.COM LLC
-47.245.165.201:1080 | Germany | Alibaba (US) Technology Co., Ltd.
-184.170.251.30:11288 | United States | Performive LLC
-185.225.32.40:1080 | Russia | BEGET.RU
-195.9.192.50:1080 | Russia | PJSC Moscow city telephone network
-192.111.130.5:17002 | United States | Performive LLC
-98.182.147.97:4145 | United States | Cox Communications Inc.
-184.170.248.5:4145 | United States | Performive LLC
-45.74.31.42:4535 | Indonesia | PT. TELKOM INDONESIA
-83.147.216.208:1080 | Finland | NetCrafters OU
-98.178.72.30:4145 | United States | Cox Communications Inc.
-109.123.251.109:1080 | France | Contabo GmbH
-195.19.50.79:1080 | Russia | ZAO GTNT
-213.32.70.99:3128 | France | OVH SAS
-45.74.31.41:9995 | United States | DigitalOcean, LLC
-184.178.172.18:15280 | United States | Cox Communications Inc.
-47.105.122.72:3128 | United Kingdom | XIFTCS Company
-49.13.22.249:10811 | Greece | Datacamp Limited
-68.233.127.229:1080 | Canada | Oracle Corporation
-36.155.23.163:10808 | Hong Kong | ZEN
-45.74.31.41:10392 | United States | Liquid Web, L.L.C
-171.25.158.95:1080 | Sweden | Patrik Lagerman
-72.207.33.64:4145 | United States | Cox Communications Inc.
-174.77.111.196:4145 | United States | Cox Communications Inc.
-31.192.108.55:10808 | The Netherlands | Hostkey B.V.
-199.58.185.9:4145 | United States | Performive LLC
-98.170.57.241:4145 | United States | Cox Communications Inc.
-45.74.31.42:4589 | Canada | GloboTech Communications
-192.252.211.193:4145 | United States | Performive LLC
-27.124.12.186:1080 | Hong Kong | CTG Server Ltd.
-94.156.114.45:1080 | Germany | Play2go International Limited
-144.91.111.48:1088 | France | Contabo GmbH
-184.178.172.17:4145 | United States | Cox Communications Inc.
-72.206.74.126:4145 | United States | Cox Communications Inc.
-8.148.22.214:80 | United Kingdom | XIFTCS Company
-51.250.99.247:1080 | Russia | Yandex.Cloud LLC
-45.74.31.42:4529 | Bulgaria | Telepoint
-85.172.81.216:1080 | Russia | OJSC Rostelecom Macroregional Branch South
-8.219.229.53:1026 | United Kingdom | XIFTCS Company
-45.74.31.40:21749 | United States | Oracle Corporation
-98.170.57.231:4145 | United States | Cox Communications Inc.
-45.74.31.41:15305 | United States | Microsoft Corporation
-147.93.172.241:5555 | France | Contabo Asia Private Limited
-45.74.31.42:7006 | India | DigitalOcean, LLC
-149.248.21.106:8080 | United States | The Constant Company
-144.31.11.58:1085 | Germany | H2nexus Cloud Services - Fzco
-98.188.47.132:4145 | United States | Cox Communications Inc.
-98.175.31.222:4145 | United States | Cox Communications Inc.
+107.181.161.81:4145 | United States | Performive LLC
 192.252.215.2:4145 | United States | Performive LLC
-45.74.31.41:13078 | United States | Network Solutions, LLC
-45.74.31.42:4922 | Germany | DigitalOcean, LLC
-176.37.107.86:11111 | Ukraine | Lanet Network
-119.15.85.94:1080 | Cambodia | WiCAM Corporation Ltd
-45.74.31.42:7176 | Canada | GloboTech Communications
-5.45.119.70:1080 | Estonia | PAGM network
-8.130.37.235:3128 | United Kingdom | XIFTCS Company
-65.21.252.66:10802 | United States | Limestone Networks, Inc.
-141.148.206.170:1088 | India | Oracle Corporation
-82.115.26.238:9050 | Germany | Stiftung Erneuerbare Freiheit
-203.76.123.6:1080 | Bangladesh | Link3 Technologies Limited
-185.8.21.140:1080 | Russia | OOO Net network
-45.74.31.42:5632 | United States | Microsoft
-84.42.63.113:1080 | Russia | PJSC Rostelecom
-184.178.172.13:15311 | United States | Cox Communications Inc.
-172.86.117.125:1080 | United States | RouterHosting LLC
-45.74.31.42:28272 | Ireland | MICROSOFT
-101.32.60.93:1080 | Hong Kong | Aceville Pte.ltd
-129.151.128.225:1080 | United Arab Emirates | Oracle Corporation
-45.74.31.42:5086 | United States | Google LLC
-113.249.111.67:1080 | China | Chongqing Telecom
-5.75.133.113:10812 | Romania | M247 Europe SRL
-199.102.105.242:4145 | United States | Performive LLC
-192.252.216.86:4145 | United States | Performive LLC
-103.157.78.22:8199 | Indonesia | PT Super Media Indonesia
-45.74.31.42:5513 | United States | Interserver, Inc
-178.150.77.204:10801 | Ukraine | Triolan
-109.194.199.198:10808 | The Netherlands | Servers Tech Fzco
-109.205.182.143:1088 | France | Contabo GmbH
-193.233.233.62:56736 | Austria | xorek.cloud International LTD
-98.191.0.47:4145 | United States | Cox Communications Inc.
-49.13.22.249:10807 | United States | GSL Networks Pty LTD
-192.111.139.163:19404 | United States | Performive LLC
-47.243.222.214:1080 | Hong Kong | Alibaba Cloud LLC
-45.74.31.42:4531 | Spain | IONOS SE
-184.181.217.210:4145 | United States | Cox Communications Inc.
-192.111.137.37:18762 | United States | Performive LLC
-45.74.31.42:4014 | Germany | IONOS SE
-192.111.135.18:18301 | United States | Performive LLC
-47.251.73.54:9080 | United Kingdom | XIFTCS Company
-45.74.31.42:4546 | Mali | The AS will be use to connect our two links to internet through
-172.86.117.115:1080 | United States | RouterHosting LLC
-68.1.210.163:4145 | United States | Cox Communications Inc.
-107.181.168.145:4145 | United States | Performive LLC
-165.154.20.187:10808 | Hong Kong | UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED
+109.199.107.68:1080 | France | Cloudflare, Inc.
+101.36.104.239:10808 | Japan | UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED
+98.178.72.30:4145 | United States | Cox Communications Inc.
+72.194.42.131:4145 | United States | Cox Communications Inc
+98.181.137.80:4145 | United States | Cox Communications Inc.
 8.219.245.123:1080 | Singapore | Alibaba (US) Technology Co., Ltd.
-67.207.92.87:1088 | United States | DigitalOcean, LLC
-184.181.217.206:4145 | United States | Cox Communications Inc.
-45.74.31.40:12971 | United States | Network Solutions, LLC
-195.123.166.125:9050 | Hungary | ATW Internet Kft
-45.74.31.42:5250 | Germany | Hetzner Online GmbH
-198.8.94.170:4145 | United States | Performive LLC
-65.21.252.66:10807 | Portugal | Datacamp Limited
-45.74.31.42:4073 | Singapore | DigitalOcean, LLC
-23.239.30.204:1088 | United States | Akamai Technologies, Inc.
-68.71.247.130:4145 | United States | Total Server Solutions L.L.C.
-70.166.167.38:57728 | United States | Cox Communications Inc.
-23.95.233.175:1080 | United States | HostPapa
-184.178.172.11:4145 | United States | Cox Communications Inc.
-118.179.93.24:9090 | Bangladesh | Amber IT Limited
-49.234.4.115:80 | China | Shenzhen Tencent Computer Systems Company Limited
-212.3.127.242:10801 | Ukraine | Science Production Company "Trifle" Ltd.
-72.205.0.67:4145 | United States | Cox Communications Inc.
-146.235.220.109:9050 | The Netherlands | Church of Cyberology
-45.74.31.42:4144 | United Kingdom | WHG Hosting Services Ltd
-72.195.34.42:4145 | United States | Cox Communications Inc.
-184.181.217.194:4145 | United States | Cox Communications Inc.
-27.54.121.90:1080 | Pakistan | ITSP
-24.249.199.12:4145 | United States | Cox Communications Inc.
-95.111.228.190:1082 | France | Contabo GmbH
-144.24.111.128:1088 | India | Oracle Corporation
-47.82.76.75:1011 | Hong Kong | Alibaba (US) Technology Co., Ltd.
-20.50.39.194:1080 | Netherlands | Microsoft Corporation
-45.74.31.41:10393 | United States | DigitalOcean, LLC
-45.74.31.41:4979 | France | Contabo GmbH
-45.74.31.47:4443 | Canada | GloboTech Communications
-45.74.31.42:4145 | Brazil | Oracle Corporation
-45.151.102.248:10808 | Russia | Aeza Group LLC
-49.13.22.249:10812 | Switzerland | M247 Europe SRL
-14.225.204.32:10800 | Vietnam | Vietnam Posts and Telecommunications Group
-45.74.31.42:11729 | Mali | Orange
-72.49.49.11:31034 | United States | Fuse Internet Access
-184.178.172.23:4145 | United States | Cox Communications Inc.
-77.239.96.194:1081 | Germany | International Hosting Company Limited
-45.74.31.42:6816 | Canada | GloboTech Communications
-45.74.31.40:11728 | France | OVH SAS
-88.87.69.240:1080 | Russia | CJSC "ER-Telecom Holding" Volgograd branch
-27.219.0.48:5000 | Hong Kong | Alibaba (US) Technology Co., Ltd.
-121.169.46.116:1090 | South Korea | Korea Telecom
-45.74.31.42:4952 | Canada | GloboTech Communications
-45.74.31.25:7692 | Japan | GoDaddy.com, LLC
-174.75.211.222:4145 | United States | Cox Communications Inc.
-45.74.31.42:14813 | France | OVH SAS
-45.74.31.47:5038 | United States | Oracle Corporation
-47.82.68.124:1011 | Hong Kong | Alibaba (US) Technology Co., Ltd.
-184.182.240.211:4145 | United States | Cox Communications Inc.
-45.135.148.26:1080 | Germany | aurologic GmbH
-199.58.184.97:4145 | United States | Performive LLC
-45.136.197.195:5555 | Hong Kong | Managed by IROKO Networks
+72.207.33.64:4145 | United States | Cox Communications Inc.
+43.167.166.56:1080 | Japan | Shenzhen Tencent Computer Systems Company Limited
+68.71.254.6:4145 | United States | Total Server Solutions L.L.C.
+95.81.126.73:1080 | Finland | Ihor Hosting LTD
+142.54.239.1:4145 | United States | Performive LLC
+194.8.144.100:1080 | Ukraine | DYNAMIC
+192.252.209.155:14455 | United States | Performive LLC
+31.220.40.59:5080 | The Netherlands | Amarutu Technology Ltd. Network
+174.75.211.193:4145 | United States | Cox Communications Inc.
+192.252.216.86:4145 | United States | Performive LLC
+174.77.111.197:4145 | United States | Cox Communications Inc.
+45.74.31.30:4839 | Germany | DigitalOcean, LLC
+45.74.31.22:8699 | United States | Liquid Web, L.L.C
+45.74.31.22:4982 | Japan | GoDaddy.com, LLC
+47.245.165.201:1080 | Germany | Alibaba (US) Technology Co., Ltd.
+27.124.12.186:1080 | Hong Kong | CTG Server Ltd.
+142.54.231.38:4145 | United States | Performive LLC
+5.75.133.113:10806 | Australia | Abuse Please contact abuse@ransomit.com.au
+192.252.220.92:17328 | United States | Performive LLC
+45.74.31.30:8422 | Vietnam | Vietnam Posts and Telecommunications Group
+171.25.158.95:1080 | Sweden | Patrik Lagerman
+121.43.154.123:8008 | United Kingdom | XIFTCS Company
+47.112.11.170:8008 | United Kingdom | XIFTCS Company
+67.201.35.145:4145 | United States | PacketExchange
+47.91.110.148:9090 | United Kingdom | XIFTCS Company
+47.91.110.148:20 | United Kingdom | XIFTCS Company
+178.214.201.74:7080 | Ukraine | Stargroup LLC
+47.104.28.135:8081 | United Kingdom | XIFTCS Company
+49.13.22.249:10807 | United States | Datacamp Limited
+45.74.31.41:17171 | United States | Microsoft
+120.79.217.196:9000 | United Kingdom | XIFTCS Company
+198.8.84.3:4145 | United States | Performive LLC
+192.111.134.10:4145 | United States | Performive LLC
+184.178.172.26:4145 | United States | Cox Communications Inc.
+45.74.31.41:16008 | United States | Network Solutions, LLC
+103.88.234.239:40006 | Mexico | Cloudflare, Inc.
+94.19.235.77:1080 | Russia | SkyNet LLC
+113.249.111.67:1080 | China | Chongqing Telecom
+186.246.14.205:9050 | United States | Emerald Onion
+68.71.251.134:4145 | United States | Performive LLC
+72.223.188.92:4145 | United States | Cox Communications Inc.
+45.74.31.22:8591 | United States | Oracle Corporation
+45.74.31.22:13470 | United States | DigitalOcean, LLC
+45.74.31.25:5559 | Canada | GloboTech Communications
+101.132.252.152:1337 | United Kingdom | XIFTCS Company
 47.85.9.228:10800 | United States | Alibaba.com LLC
-172.86.116.240:1081 | United States | RouterHosting LLC
-45.74.31.41:10748 | Mali | The AS will be use to connect our two links to internet through
-47.251.127.154:1080 | United States | Alibaba Cloud LLC
-98.190.239.3:4145 | United States | Cox Communications Inc.
-184.181.217.220:4145 | United States | Cox Communications Inc.
-185.200.177.138:445 | The Netherlands | Clodo Cloud Service CO. L.L.C
-72.195.34.59:4145 | United States | Cox Communications Inc.
+45.74.31.23:4679 | France | OVH SAS
+45.74.31.42:5592 | United States | The Constant Company
+192.252.211.193:4145 | United States | Performive LLC
+68.71.249.158:4145 | United States | Performive LLC
+5.75.133.113:10805 | Serbia | M247 Europe SRL
+45.32.47.208:1080 | Japan | Choopa
+72.195.34.42:4145 | United States | Cox Communications Inc.
+45.74.31.23:5074 | United Kingdom | WHG Hosting Services Ltd
+45.74.31.41:4111 | Germany | IONOS SE
 65.21.252.66:10805 | Philippines | Zenlayer Inc
-172.86.117.115:1081 | United States | RouterHosting LLC
-152.53.183.107:8081 | Germany | netcup GmbH
-101.36.104.46:10808 | Japan | UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED
-72.195.34.58:4145 | United States | Cox Communications Inc.
-45.74.31.41:13050 | France | Online
-144.76.61.252:1080 | Germany | Hetzner Online GmbH
-72.194.42.156:4145 | United States | Cox Communications Inc
+45.74.31.30:6300 | United States | Oracle Corporation
+121.169.46.116:1090 | South Korea | Korea Telecom
+129.151.128.225:1080 | United Arab Emirates | Oracle Corporation
+45.74.31.23:14648 | United States | Namecheap, Inc.
+154.201.71.12:2080 | Hong Kong | cognetcloud INC
+45.74.31.23:5056 | Canada | GloboTech Communications
+45.74.31.42:4496 | France | OVH SAS
+49.13.22.249:10812 | Hungary | M247 Europe SRL
+45.74.31.30:7810 | United States | Oracle Corporation
+45.74.31.30:30877 | United States | DigitalOcean, LLC
+72.205.0.67:4145 | United States | Cox Communications Inc.
+104.37.135.145:4145 | United States | Performive LLC
+38.49.210.79:40000 | Canada | Cloudflare, Inc.
+184.185.2.12:4145 | United States | Cox Communications Inc.
+72.195.34.35:27360 | United States | Cox Communications Inc.
+199.58.184.97:4145 | United States | Performive LLC
+142.54.236.97:4145 | United States | Performive LLC
+79.76.59.115:1080 | Sweden | Oracle Corporation
+88.84.204.217:1080 | Russia | Flex Ltd.
+45.74.31.23:13313 | United States | Namecheap, Inc.
+45.38.23.110:1080 | United States | Cloud Software - FZCO
+192.111.129.145:16894 | United States | Performive LLC
+199.66.182.232:4145 | United States | NET2ATLANTA.COM LLC
+68.1.210.163:4145 | United States | Cox Communications Inc.
+72.195.114.184:4145 | United States | Cox Communications Inc.
+45.74.31.40:15328 | United States | Oracle Corporation
+45.74.31.41:13847 | United States | Network Solutions, LLC
+203.189.150.44:1080 | Cambodia | COGETEL Co
+47.119.22.92:6379 | United Kingdom | XIFTCS Company
+192.111.137.34:18765 | United States | Performive LLC
+45.74.31.47:5019 | Spain | IONOS SE
+47.237.2.245:119 | United Kingdom | XIFTCS Company
+45.74.31.30:6147 | United States | Oracle Corporation
+67.201.59.70:4145 | United States | PacketExchange
+98.190.239.3:4145 | United States | Cox Communications Inc.
+45.138.157.212:1080 | Russia | Cloudflare, Inc.
+192.111.130.5:17002 | United States | Performive LLC
+114.215.127.92:100 | United Kingdom | XIFTCS Company
+199.116.112.6:4145 | United States | Total Server Solutions L.L.C.
+45.74.31.50:42504 | United States | DigitalOcean, LLC
+47.91.120.190:8081 | United Kingdom | XIFTCS Company
+45.74.31.42:7323 | Indonesia | PT INDONESIA COMNETS PLUS
+45.74.31.41:15933 | United States | Network Solutions, LLC
+45.74.31.22:10269 | Indonesia | Biznet Networks
+98.170.57.249:4145 | United States | Cox Communications Inc.
+146.56.191.98:14785 | South Korea | Oracle Corporation
+45.74.31.22:13871 | Singapore | Contabo Asia Private Limited
+45.74.31.22:8718 | United States | Liquid Web, L.L.C
+192.252.214.20:15864 | United States | Performive LLC
+45.74.31.22:15327 | France | OVH SAS
+140.238.43.53:54322 | Japan | Oracle Corporation
+199.58.185.9:4145 | United States | Performive LLC
+60.216.181.143:10808 | China | CNC Group CHINA169 Shandong Province Network
+139.224.186.221:6666 | United Kingdom | XIFTCS Company
+45.136.197.195:5555 | Hong Kong | Managed by IROKO Networks
+160.187.0.89:1080 | Vietnam | Online Data Company Limited
+45.74.31.50:5002 | Singapore | GoDaddy.com, LLC
+45.74.31.40:13152 | France | OVH SAS
+45.74.31.30:6779 | United States | Oracle Corporation
+45.74.31.30:6981 | United States | Oracle Corporation
+45.74.31.25:4653 | Singapore | Contabo Asia Private Limited
+45.74.31.41:12378 | United States | Liquid Web, L.L.C
+45.74.31.23:10363 | Indonesia | Biznet Networks
+193.25.215.182:22222 | United States | ReadyDedis, LLC
+72.37.216.68:4145 | United States | Performive LLC
+184.178.172.11:4145 | United States | Cox Communications Inc.
+184.182.240.211:4145 | United States | Cox Communications Inc.
+129.151.240.183:1080 | France | Oracle Corporation
+47.76.144.139:59394 | United Kingdom | XIFTCS Company
+45.74.31.50:14873 | Germany | Hetzner Online GmbH
+194.67.207.95:19080 | Russia | Ihor Hosting LTD
+45.74.31.30:10676 | United States | Oracle Corporation
+72.195.34.41:4145 | United States | Cox Communications Inc.
+45.74.31.30:4015 | Mali | The AS will be use to connect our two links to internet through
+45.74.31.30:5955 | Indonesia | Biznet Networks
+45.74.31.23:5110 | India | DigitalOcean, LLC
+45.74.31.30:5381 | United States | Interserver, Inc
+202.43.165.140:10802 | Indonesia | DTPNet
+144.76.165.249:9050 | Germany | dogado GmbH
+45.74.31.42:6521 | South Africa | xneelo-JHB
+45.74.31.23:6581 | France | Contabo GmbH
+45.74.31.22:17256 | Indonesia | Biznet Networks
+45.74.31.22:4044 | United States | Microsoft
+180.158.222.93:1080 | China | China Telecom (Group)
+45.74.31.23:7378 | Indonesia | Biznet Networks
+104.200.152.30:4145 | United States | Performive LLC
+192.111.137.37:18762 | United States | Performive LLC
+45.74.31.50:29827 | United States | Oracle Corporation
+45.74.31.25:5944 | Canada | GloboTech Communications
+184.181.217.210:4145 | United States | Cox Communications Inc.
+83.147.217.103:1080 | United States | CloudExa-Hosting LTD
+45.74.31.22:9711 | France | OVH SAS
+45.74.31.42:7424 | United States | The Constant Company
+45.74.31.30:5150 | United States | GoDaddy.com, LLC
+45.74.31.42:4110 | Singapore | Contabo Asia Private Limited
+45.74.31.42:6956 | Singapore | GoDaddy.com, LLC
+45.74.31.30:9384 | Singapore | DigitalOcean, LLC
+45.74.31.23:7727 | France | OVH SAS
+45.74.31.30:8384 | United States | Oracle Corporation
+65.21.252.66:10811 | Singapore | Datacamp Limited
+142.54.237.34:4145 | United States | Performive LLC
+74.119.147.209:4145 | United States | Total Server Solutions L.L.C.
 98.188.47.150:4145 | United States | Cox Communications Inc.
-45.74.31.40:46317 | United States | The Constant Company
-88.147.197.60:1080 | Russia | MTS PJSC
-195.135.255.98:1080 | Latvia | SIA VEESP
-45.159.189.203:1080 | The Netherlands | Hosting Solution Ltd.
-45.74.31.42:12269 | Brazil | Oracle Corporation
-49.13.22.249:10802 | United States | Clouvider Limited
-39.100.88.89:80 | United Kingdom | XIFTCS Company
-45.74.31.47:27601 | France | OVH SAS
+120.26.52.35:3128 | United Kingdom | XIFTCS Company
+45.74.31.23:4258 | India | NIXI
+192.111.135.18:18301 | United States | Performive LLC
+184.178.172.18:15280 | United States | Cox Communications Inc.
+174.77.111.198:49547 | United States | Cox Communications Inc.
+45.61.188.134:44499 | United States | FranTech Solutions
+168.253.92.93:10808 | South Africa | CM Value Added Services (Pty) Ltd
+199.102.107.145:4145 | United States | Performive LLC
+68.71.247.130:4145 | United States | Total Server Solutions L.L.C.
+45.74.31.22:8088 | Indonesia | Biznet Networks
+49.13.22.249:10802 | Sweden | F.N.S. HOLDINGS LIMITED
+212.231.230.141:18500 | Spain | Procono TV
+45.74.31.25:5463 | United States | Oracle Corporation
+72.205.0.93:4145 | United States | Cox Communications Inc.
+45.74.31.30:7159 | United States | Oracle Corporation
+168.144.72.32:1080 | India | DigitalOcean, LLC
+184.178.172.25:15291 | United States | Cox Communications Inc.
+107.152.98.5:4145 | United States | Performive LLC
+45.74.31.41:10468 | United States | Liquid Web, L.L.C
+188.143.129.133:1080 | Russia | Petersburg Internet Network ltd.
+72.207.109.5:4145 | United States | Cox Communications Inc.
+124.41.225.101:1080 | Nepal | WorldLink Communications
+174.77.111.196:4145 | United States | Cox Communications Inc.
+198.8.94.174:39078 | United States | Performive LLC
+95.31.29.206:1080 | Russia | CORBINA-BROADBAND
+66.42.224.229:41679 | United States | Cincinnati Bell Telephone Company LLC
+45.74.31.30:7942 | United States | Oracle Corporation
+98.191.0.37:4145 | United States | Cox Communications Inc.
+144.76.61.252:1080 | Germany | Hetzner Online GmbH
+144.217.107.25:1080 | Canada | OVH SAS
+192.252.211.197:14921 | United States | Performive LLC
+45.74.31.30:6048 | United States | Microsoft
+84.42.19.54:1080 | Russia | Macroregional Center
+47.82.102.188:1011 | Hong Kong | Alibaba (US) Technology Co., Ltd.
+88.214.54.75:1080 | The Netherlands | Scalaxy B.V.
+72.223.188.67:4145 | United States | Cox Communications Inc.
+199.102.106.94:4145 | United States | Performive LLC
 89.22.226.183:1080 | Sweden | xorek.cloud International LTD
+195.123.166.125:9050 | Germany | Leaseweb DE
+109.120.187.29:8080 | Finland | Aeza International LTD
+37.110.18.241:1080 | Russia | NCNET
+188.32.80.88:1080 | Russia | NCNET
+45.74.31.50:13597 | United States | DigitalOcean, LLC
+45.74.31.42:32655 | France | OVH SAS
+8.215.15.163:3128 | United Kingdom | XIFTCS Company
+45.74.31.50:10380 | Burundi | Burundi Backbone System
+216.105.143.146:4145 | United States | NET2ATLANTA.COM LLC
+45.74.31.42:15893 | Israel | Bezeq International-Ltd
+184.178.172.13:15311 | United States | Cox Communications Inc.
+192.111.139.165:4145 | United States | Performive LLC
+45.74.31.42:6990 | United States | DigitalOcean, LLC
+45.74.31.42:10367 | Singapore | GoDaddy.com, LLC
+67.201.33.10:25283 | United States | PacketExchange
+45.74.31.30:8628 | United States | Oracle Corporation
+199.187.210.54:4145 | United States | Total server solutions LLC
+103.210.161.8:1080 | China | China Unicom Guangdong IP network
+65.21.252.66:10803 | Brazil | ONEPROVIDER
+45.74.31.25:4738 | France | OVH SAS
+47.91.115.179:10250 | United Kingdom | XIFTCS Company
+128.14.229.215:1080 | Taiwan | Zenlayer Inc
+157.90.113.23:9052 | United Kingdom | Iomart Cloud Services Limited
+23.239.30.204:1088 | United States | Akamai Technologies, Inc.
+184.182.240.12:4145 | United States | Cox Communications Inc.
+45.74.31.41:12748 | United States | Liquid Web, L.L.C
+198.8.94.170:4145 | United States | Performive LLC
+109.194.199.198:10808 | The Netherlands | Servers Tech Fzco
+45.74.31.30:4580 | Canada | GloboTech Communications
+192.252.215.5:16137 | United States | Performive LLC
+45.74.31.22:11905 | United States | Oracle Corporation
+45.74.31.23:15020 | United States | Namecheap, Inc.
+62.245.48.172:1080 | Russia | JSC "ER-Telecom Holding"
+45.74.31.41:11504 | France | Contabo GmbH
+152.53.183.107:8081 | Germany | netcup GmbH
+8.130.54.67:9000 | United Kingdom | XIFTCS Company
+104.194.132.112:9052 | Sweden | QuxLabs AB
+31.211.142.115:8192 | Bulgaria | 5KOM
+45.74.31.25:8013 | Bulgaria | Telepoint
+45.74.31.30:8701 | Germany | Hetzner Online GmbH
+103.75.118.84:1080 | Japan | BrainStorm Network
+95.111.228.190:1080 | France | Contabo GmbH
+45.74.31.47:15890 | Indonesia | Biznet Networks
+132.243.168.30:9150 | The Netherlands | SCALEWAY
+72.195.34.60:27391 | United States | Cox Communications Inc.
+208.102.51.6:58208 | United States | Fuse Internet Access
+142.54.235.9:4145 | United States | Performive LLC
+68.71.241.33:4145 | United States | Total Server Solutions L.L.C.
+68.71.249.153:48606 | United States | Performive LLC
+192.111.137.35:4145 | United States | Performive LLC
+45.74.31.41:15762 | United States | Oracle Corporation
+95.85.72.169:14488 | Ukraine | G-Core Labs S.A
+47.100.73.178:45 | United Kingdom | XIFTCS Company
+168.222.43.35:8443 | Germany | OVH SAS
+47.121.129.129:3128 | United Kingdom | XIFTCS Company
+45.74.31.40:14846 | United States | Oracle Corporation
+72.195.34.59:4145 | United States | Cox Communications Inc.
+160.22.200.60:69 | Indonesia | PT Karangmukti Global Netmedia
+45.74.31.42:30023 | United States | Microsoft
+195.135.255.98:1080 | Latvia | SIA VEESP
+24.249.199.12:4145 | United States | Cox Communications Inc.
+174.75.211.222:4145 | United States | Cox Communications Inc.
+68.71.240.210:4145 | United States | Total Server Solutions L.L.C.
+45.74.31.23:5549 | France | OVH SAS
+103.18.78.156:1080 | Indonesia | PT Usaha Adi Sanggoro
+45.74.31.25:6898 | United States | Namecheap, Inc.
+82.21.153.141:1080 | The Netherlands | Hostkey B.V.
+45.74.31.42:6471 | Vietnam | Vietnam Posts and Telecommunications Group
+45.74.31.40:9456 | United States | Liquid Web, L.L.C
+184.181.217.206:4145 | United States | Cox Communications Inc.
+45.74.31.25:5911 | South Africa | xneelo-JHB
+118.179.93.24:9090 | Bangladesh | Amber IT Limited
+69.61.200.104:36181 | United States | Fuse Internet Access
+45.74.31.41:13078 | United States | Network Solutions, LLC
+39.102.208.236:10002 | United Kingdom | XIFTCS Company
+45.74.31.23:5216 | Indonesia | Biznet Networks
+45.74.31.30:5809 | France | Contabo GmbH
+203.189.152.79:1080 | Cambodia | ONLINE
+185.87.255.47:1080 | United Kingdom | Fast Panda Limited
+103.206.68.241:1080 | Cambodia | COGETEL Co., Ltd
+45.74.31.50:9058 | Burundi | Burundi Backbone System
+68.71.252.38:4145 | United States | Total Server Solutions L.L.C.
+144.24.111.128:1088 | India | Oracle Corporation
+45.74.31.23:4454 | Japan | GoDaddy.com, LLC
+47.88.94.79:1080 | United States | Alibaba (US) Technology Co., Ltd.
+84.247.191.136:9050 | The Netherlands | Unmanaged LTD
+45.74.31.50:4987 | Canada | GloboTech Communications
+168.119.173.104:47486 | Germany | Hetzner Online GmbH
+45.74.31.25:41684 | Ireland | MICROSOFT
+57.128.249.250:9052 | France | OVH SAS
+45.74.31.47:20909 | Vietnam | Phuong NGA MY
+192.111.139.163:19404 | United States | Performive LLC
+70.166.167.55:57745 | United States | Cox Communications Inc.
+45.74.31.25:8888 | Indonesia | Biznet Networks
+45.74.31.25:4582 | Indonesia | Biznet Networks
+45.74.31.22:30020 | United States | Oracle Corporation
+103.187.162.75:8199 | Indonesia | PT MISQOT SEJAHTERA INDONESIA
+199.66.183.251:4145 | United States | NET2ATLANTA.COM LLC
+72.214.108.67:4145 | United States | Cox Communications Inc
+85.209.156.148:1080 | United States | Oy Crea Nova Hosting Solution Ltd
+72.195.114.169:4145 | United States | Cox Communications Inc.
+101.32.60.93:1080 | Hong Kong | Aceville Pte.ltd
+45.74.31.23:6230 | United States | DigitalOcean, LLC
+45.74.31.47:15364 | Indonesia | Biznet Networks
+45.74.31.30:4018 | France | OVH SAS
+45.74.31.30:9671 | United States | GoDaddy.com, LLC
+72.206.74.126:4145 | United States | Cox Communications Inc.
+109.205.182.143:1088 | France | Contabo GmbH
+74.119.144.60:4145 | United States | Total Server Solutions L.L.C.
+82.202.163.222:1080 | Russia | SERVER
+199.102.104.70:4145 | United States | Performive LLC
+45.74.31.25:4647 | Canada | GloboTech Communications
+212.237.125.216:6969 | Iraq | Kurdistan Net 4
+47.92.194.235:8008 | United Kingdom | XIFTCS Company
+45.74.31.50:10483 | United States | Network Solutions, LLC
+45.74.31.25:15963 | Burundi | Burundi Backbone System
+192.111.138.29:4145 | United States | Performive LLC
+139.224.195.153:8000 | United Kingdom | XIFTCS Company
+184.181.217.220:4145 | United States | Cox Communications Inc.
+45.74.31.41:5363 | France | Contabo GmbH
+45.74.31.22:9482 | United States | DigitalOcean, LLC
+192.111.129.150:4145 | United States | Performive LLC
+209.50.255.91:1080 | United States | Leaseweb USA, Inc.
+109.205.61.97:1080 | United States | Siberfy Lahore
+68.71.245.206:4145 | United States | Total Server Solutions L.L.C.
+94.232.62.170:1080 | Russia | Infanet Ltd.
+45.74.31.23:5646 | Vietnam | Phuong NGA MY
+45.74.31.30:6719 | United States | Oracle Corporation
+45.74.31.25:14434 | Indonesia | Biznet Networks
+66.59.197.63:4000 | Thailand | Datacamp Limited
+45.74.31.23:4878 | Indonesia | Biznet Networks
+47.238.136.137:1011 | Hong Kong | Alibaba Cloud LLC
+123.58.219.171:10808 | Hong Kong | UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED
+45.74.31.30:4416 | United States | Microsoft Corporation
+45.74.31.23:5994 | Indonesia | Biznet Networks
+45.74.31.40:14692 | Germany | Hetzner Online GmbH
+184.181.217.213:4145 | United States | Cox Communications Inc.
+45.74.31.30:9447 | United States | Microsoft Corporation
+144.91.111.48:1088 | France | Contabo GmbH
+192.252.209.158:4145 | United States | Performive LLC
+36.155.23.163:10808 | Hong Kong | ZEN
+45.74.31.30:6715 | United States | Namecheap, Inc.
+193.233.233.62:56736 | Austria | xorek.cloud International LTD
+142.54.229.249:4145 | United States | Performive LLC
+142.54.237.38:4145 | United States | Performive LLC
+45.74.31.50:6274 | Canada | GloboTech Communications
+47.91.121.127:9999 | United Kingdom | XIFTCS Company
+72.207.113.97:4145 | United States | Cox Communications Inc.
+216.105.130.131:4145 | United States | NET2ATLANTA.COM LLC
+98.191.0.47:4145 | United States | Cox Communications Inc.
+184.178.172.17:4145 | United States | Cox Communications Inc.
+98.182.147.97:4145 | United States | Cox Communications Inc.
+199.116.114.11:4145 | United States | Performive LLC
+45.74.31.25:8237 | Indonesia | Biznet Networks
+68.71.243.14:4145 | United States | Performive LLC
+72.194.42.156:4145 | United States | Cox Communications Inc
+45.74.31.30:8648 | United States | Oracle Corporation
+45.74.31.47:4542 | Canada | GloboTech Communications
+45.61.129.165:9050 | Sweden | QuxLabs AB
+199.229.254.129:4145 | United States | Performive LLC
+45.74.31.40:4255 | United States | Microsoft
+165.154.20.187:10808 | Hong Kong | UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED
+45.74.31.30:8031 | Mozambique | Eduardo Mondlane University
+72.255.38.180:1080 | Pakistan | Cyber Internet Services (Private) Limited
+45.74.31.25:5123 | Japan | GoDaddy.com, LLC
+192.252.216.81:4145 | United States | Performive LLC
+192.111.130.2:4145 | United States | Performive LLC
+45.74.31.23:6945 | France | Contabo GmbH
+31.76.111.88:1080 | Germany | EdgeSec Technologies Limited
+213.32.70.99:3128 | France | OVH SAS
+45.74.31.25:4271 | Indonesia | PT INDONESIA COMNETS PLUS
+149.248.21.106:8080 | United States | The Constant Company
+72.37.217.3:4145 | United States | PacketExchange
+49.13.22.249:10805 | Spain | Datacamp Limited
+45.74.31.47:6348 | France | OVH SAS
+174.64.199.79:4145 | United States | Cox Communications Inc.
+45.194.33.12:30001 | Hong Kong | Antbox Network Limited
+109.172.8.142:666 | Czechia | SmartApe OU
+107.167.18.122:443 | United States | Sharktech
+192.252.220.89:4145 | United States | Performive LLC
+192.252.208.70:14282 | United States | Performive LLC
+184.178.172.3:4145 | United States | Cox Communications Inc.
+45.74.31.30:39629 | Indonesia | Biznet Networks
+45.74.31.23:4049 | Spain | IONOS SE
+45.74.31.23:6796 | Brazil | Oracle Corporation
+101.36.104.46:10808 | Japan | UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED
+43.155.143.227:1080 | South Korea | Shenzhen Tencent Computer Systems Company Limited
+98.178.72.21:10919 | United States | Cox Communications Inc.
+45.74.31.30:4025 | United States | Microsoft
+65.21.252.66:10807 | Portugal | Datacamp Limited
+45.74.31.30:9708 | Canada | GloboTech Communications
+45.74.31.23:15754 | United States | DigitalOcean, LLC
+146.103.110.233:1080 | The Netherlands | Servers Tech Fzco
+45.74.31.30:6741 | United States | Oracle Corporation
+98.170.57.241:4145 | United States | Cox Communications Inc.
+45.74.31.23:14073 | United States | Oracle Corporation
+109.123.251.109:1080 | France | Contabo GmbH
+119.15.85.94:1080 | Cambodia | WiCAM Corporation Ltd
+184.181.217.201:4145 | United States | Cox Communications Inc.
+45.74.31.22:13448 | United States | Network Solutions, LLC
+45.74.31.23:4969 | India | DigitalOcean, LLC
+206.220.175.2:4145 | United States | Performive LLC
+47.251.127.154:1080 | United States | Alibaba Cloud LLC
+173.254.204.118:7890 | United States | Cloudflare, Inc.
+192.252.210.233:4145 | United Kingdom | Performive LLC
+203.189.155.68:1080 | Cambodia | COGETEL Co
+80.248.53.90:1080 | Russia | TEVIA
+45.151.102.248:10808 | Russia | Aeza Group LLC
+88.218.206.170:5432 | Sweden | QuxLabs AB
+5.75.133.113:10813 | United Arab Emirates | Powerhouse Management, Inc.
+51.250.99.247:1080 | Russia | Yandex.Cloud LLC
+45.74.31.25:13437 | Brazil | Oracle Corporation
+5.255.123.162:1080 | The Netherlands | The Infrastructure Group B.V.
+23.95.233.175:1080 | United States | HostPapa
+45.74.31.23:5493 | United States | Google LLC
+81.29.249.82:5071 | Iran | Tose'h Fanavari Ertebabat Pasargad Arian Co. PJS
+45.74.31.23:11869 | United States | Microsoft Corporation
+194.238.79.156:1080 | Germany | dataforest GmbH
+47.254.122.220:5443 | United States | Alibaba Cloud LLC
+39.104.57.33:7777 | United Kingdom | XIFTCS Company
+8.148.22.214:80 | United Kingdom | XIFTCS Company
+5.45.119.70:1080 | Estonia | PAGM network
+45.74.31.30:8580 | United States | Namecheap, Inc.
+184.181.178.33:4145 | United States | Cox Communications Inc.
+147.93.172.241:5555 | France | Contabo Asia Private Limited
+49.13.22.249:10813 | Israel | Powerhouse Management, Inc.
+199.102.105.242:4145 | United States | Performive LLC
+101.132.249.207:8333 | United Kingdom | XIFTCS Company
+98.175.31.195:4145 | United States | Cox Communications Inc.
+45.74.31.30:9782 | United States | Oracle Corporation
+14.225.204.32:10800 | Vietnam | Vietnam Posts and Telecommunications Group
+45.74.31.42:12662 | United States | Namecheap, Inc.
+45.74.31.30:7377 | France | Contabo GmbH
+45.74.31.30:12008 | Brazil | Oracle Corporation
+45.14.227.114:10001 | Switzerland | Alexhost SRL
+68.1.210.189:4145 | United States | Cox Communications Inc.
+45.74.31.22:11015 | France | OVH SAS
+158.101.15.1:443 | United States | Oracle Corporation
+45.74.31.30:12089 | Canada | GloboTech Communications
+45.74.31.23:12283 | United States | Network Solutions, LLC
+162.253.68.97:4145 | United States | Performive LLC
+82.115.26.238:9050 | Sweden | QuxLabs AB
+184.170.249.65:4145 | United States | Performive LLC
+45.74.31.23:6639 | Indonesia | Biznet Networks
+88.147.197.60:1080 | Russia | MTS PJSC
+199.66.182.243:4145 | United States | NET2ATLANTA.COM LLC
+45.74.31.50:12778 | United States | Network Solutions, LLC
+62.60.231.45:10808 | Sweden | Aeza International LTD
+45.74.31.22:4679 | Indonesia | PT. TELKOM INDONESIA
+150.241.70.126:1080 | Finland | xorek.cloud International LTD
+45.74.31.41:9958 | United States | DigitalOcean, LLC
+45.74.31.23:6656 | United States | Namecheap, Inc.
+45.74.31.30:9097 | France | Contabo GmbH
+45.74.31.22:4890 | United Kingdom | WHG Hosting Services Ltd
+49.234.4.115:80 | China | Shenzhen Tencent Computer Systems Company Limited
+185.87.255.54:1080 | United Kingdom | Fast Panda Limited
+192.111.135.17:18302 | United States | Performive LLC
+47.89.159.212:93 | United Kingdom | XIFTCS Company
+45.74.31.30:5188 | United States | DigitalOcean, LLC
+45.74.31.23:15666 | United States | Namecheap, Inc.
+45.74.31.30:5073 | Singapore | GoDaddy.com, LLC
+184.170.248.5:4145 | United States | Performive LLC
+45.74.31.25:5857 | Vietnam | Phuong NGA MY
+219.99.219.56:1080 | Japan | NSK Co., Ltd.
+104.200.135.46:4145 | United States | Performive LLC
+45.74.31.23:17769 | Lithuania | Ipxo LLC
+45.74.31.30:8960 | United States | Oracle Corporation
+98.175.31.222:4145 | United States | Cox Communications Inc.
+45.74.31.30:4267 | United States | Microsoft Corporation
+45.74.31.42:7650 | Vietnam | Phuong NGA MY
+45.74.31.30:5589 | Indonesia | PT. TELKOM INDONESIA
+45.74.31.25:5846 | Indonesia | PT. TELKOM INDONESIA
+45.74.31.30:8116 | United States | Oracle Corporation
+45.74.31.47:8689 | Singapore | DigitalOcean, LLC
+23.95.164.244:1081 | United States | HostPapa
+49.13.22.249:10806 | United States | GSL Networks Pty LTD
+216.68.128.121:4145 | United States | Cincinnati Bell Telephone Company LLC
+199.66.183.226:4145 | United States | NET2ATLANTA.COM LLC
+118.179.205.159:9090 | Bangladesh | dhakaCom Limited
+144.91.121.61:1088 | France | Contabo GmbH
+45.74.31.30:6714 | Vietnam | Vietnam Posts and Telecommunications Group
+93.127.133.109:1081 | Germany | Datacamp Limited
+45.74.31.25:4994 | France | OVH SAS
+109.201.65.165:1080 | Russia | CJSC-ZHANR
+45.74.31.22:11197 | United States | Oracle Corporation
+192.252.208.67:14287 | United States | Performive LLC
+45.74.31.42:6826 | Singapore | GoDaddy.com, LLC
+45.74.31.41:12505 | France | OVH SAS
+45.74.31.23:4281 | Indonesia | Biznet Networks
+45.74.31.42:10033 | United States | Namecheap, Inc.
+45.74.31.30:4784 | Indonesia | PT. TELKOM INDONESIA
+45.74.31.30:4574 | France | Contabo GmbH
 172.86.107.41:1081 | United States | CenturyLink Communications, LLC
-45.74.31.41:10390 | United States | DigitalOcean, LLC
-8.220.204.92:1081 | United Kingdom | XIFTCS Company
-195.19.50.130:1080 | Russia | ZAO GTNT
-45.74.31.41:17296 | Brazil | Oracle Corporation
-8.212.168.170:10000 | United Kingdom | XIFTCS Company
+24.249.199.4:4145 | United States | Cox Communications Inc.
+203.251.28.105:1080 | South Korea | Korea Telecom
+45.74.31.42:28938 | United States | DigitalOcean, LLC
+184.170.251.30:11288 | United States | Performive LLC
+95.131.10.134:1080 | Russia | JSC "SibelTelecom"
+184.181.217.194:4145 | United States | Cox Communications Inc.
+98.188.47.132:4145 | United States | Cox Communications Inc.
+45.159.189.203:1080 | The Netherlands | Hosting Solution Ltd.
+213.111.146.36:18080 | The Netherlands | SOLLUTIUM EU Sp z.o.o.
+95.31.48.4:1080 | Russia | CORBINA-BROADBAND
+45.74.31.30:32245 | United Kingdom | WHG Hosting Services Ltd
+184.178.172.14:4145 | United States | Cox Communications Inc.
+45.74.31.30:10321 | India | NIXI
+45.74.31.42:6389 | United States | The Constant Company
+68.71.242.118:4145 | United States | Performive LLC
+174.64.199.82:4145 | United States | Cox Communications Inc.
+72.49.49.11:31034 | United States | Fuse Internet Access
+8.130.36.163:9098 | United Kingdom | XIFTCS Company
+184.178.172.23:4145 | United States | Cox Communications Inc.
+107.175.194.203:40000 | United States | Cloudflare, Inc.
+45.74.31.30:4444 | Lithuania | Ipxo LLC
+45.74.31.47:9792 | United States | DigitalOcean, LLC
+107.150.41.226:18080 | United States | Nocix, LLC
+45.74.31.23:16026 | United States | Namecheap, Inc.
+45.74.31.50:5342 | South Africa | xneelo-JHB
+45.74.31.40:10201 | France | Contabo GmbH
+45.74.31.30:6433 | United States | Oracle Corporation
+98.181.137.83:4145 | United States | Cox Communications Inc.
+45.74.31.42:7760 | India | NIXI
+192.252.214.17:4145 | United States | Performive LLC
+45.74.31.47:27601 | France | OVH SAS
+185.195.71.218:18080 | Switzerland | Datasource AG
+91.107.179.68:10809 | Germany | Cloudflare, Inc.
+45.74.31.41:13459 | United States | Oracle Corporation
+107.181.168.145:4145 | United States | Performive LLC
+142.54.232.6:4145 | United States | Performive LLC
+62.60.250.171:40001 | Finland | Cloudflare, Inc.
+45.74.31.41:12923 | Indonesia | Biznet Networks
+45.74.31.41:39009 | United States | Namecheap, Inc.
+45.74.31.22:4055 | Canada | GloboTech Communications
+70.166.167.38:57728 | United States | Cox Communications Inc.
+154.29.153.164:35554 | United States | Cogent Communications
+184.178.172.28:15294 | United States | Cox Communications Inc.
+45.74.31.47:5135 | Canada | GloboTech Communications
+70.166.65.160:4145 | United States | Cox Communications Inc.
+45.74.31.22:13400 | Burundi | Burundi Backbone System
+45.74.31.30:6132 | Canada | GloboTech Communications
+184.178.172.5:15303 | United States | Cox Communications Inc.
+142.54.226.214:4145 | United States | Performive LLC
+47.243.222.214:1080 | Hong Kong | Alibaba Cloud LLC
+156.225.20.83:1080 | Hong Kong | Vapeline Technology
+45.74.31.41:10264 | India | Oracle Corporation
+45.74.31.30:4354 | Spain | IONOS SE
+102.36.127.249:1080 | South Africa | Clear Access (Pty) Ltd
+213.199.47.140:1080 | France | Contabo GmbH
+72.195.101.99:4145 | United States | Cox Communications Inc.
+72.195.34.58:4145 | United States | Cox Communications Inc.
+45.74.31.47:4846 | United States | GoDaddy.com, LLC
+45.74.31.23:14325 | United States | Oracle Corporation
+45.74.31.47:28274 | United States | Network Solutions, LLC
+102.129.229.131:1081 | Thailand | DEXSERVER by CSNE CO., LTD.
+45.74.31.25:5479 | Canada | GloboTech Communications
+184.170.245.148:4145 | United States | Performive LLC
+45.74.31.42:14894 | Indonesia | Biznet Networks
+192.111.139.162:4145 | United States | Performive LLC
+195.133.93.79:9080 | Germany | Stiftung Erneuerbare Freiheit
+45.74.31.22:12488 | United States | DigitalOcean, LLC
+98.170.57.231:4145 | United States | Cox Communications Inc.
+95.111.228.190:1082 | France | Contabo GmbH
+45.74.31.30:10677 | Canada | GloboTech Communications
+45.74.31.30:9845 | Indonesia | PT. TELKOM INDONESIA
+119.148.7.10:22122 | Bangladesh | Agni Systems Limited
+45.74.31.42:4601 | Singapore | UpCloud Ltd
+45.74.31.50:11053 | Vietnam | Phuong NGA MY
+45.74.31.30:10316 | Bulgaria | Telepoint
+45.74.31.42:36841 | Colombia | Empresa de Recursos Tecnologicos S.A E.S.P
+45.74.31.41:10596 | Indonesia | Biznet Networks
+77.221.152.210:36219 | France | Aeza International LTD
+45.74.31.30:6068 | United States | Namecheap, Inc.
+45.74.31.22:12722 | Singapore | Contabo Asia Private Limited
+45.74.31.47:6053 | Bulgaria | Telepoint
+45.74.31.22:13353 | United States | Network Solutions, LLC
+45.74.31.42:30724 | United States | Oracle Corporation
+45.74.31.30:5049 | United States | Oracle Corporation
+45.74.31.23:6556 | Vietnam | Vietnam Posts and Telecommunications Group
+45.74.31.30:5647 | Vietnam | SUNCLOUD
+45.74.31.23:6831 | Indonesia | Biznet Networks
+45.74.31.25:5401 | Singapore | DigitalOcean, LLC
